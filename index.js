@@ -9,7 +9,8 @@ function nowServing(line) {
   if (line.length === 0) {
     return "There is nobody waiting to be served!";
   }
-  return line.unshift();
+  name = line.unshift();
+  return `Currently serving ${name}.`;
 }
 
 function currentLine(line) {
