@@ -14,6 +14,10 @@ function nowServing(line) {
 }
 
 function currentLine(line) {
+  
 
 
 }
+
+const deliLine = ["Steven", "Blake", "Avi"]
+nowServing(deliLine);
