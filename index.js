@@ -21,10 +21,10 @@ function currentLine(line) {
   var lineList = "The line is currently: ";
   for (var i = 1; i <= line.length; i++) {
     if (i === line.length) {
-      lineList.concat(`${i}. ${line[i-1]}`)
+      lineList += `${i}. ${line[i-1]}`
     }
     else {
-      lineList.concat(`${i}. ${line[i-1]}`);
+      lineList += `${i}. ${line[i-1]}`;
     }
   }
 
