@@ -18,6 +18,15 @@ function currentLine(line) {
     return "The line is currently empty.";
   }
 
+  var lineList = "The line is currently: ";
+  for (var i = 1; i <= line.length; i++) {
+    if (i === line.length) {
+      lineList.concat(`${i}. ${line[i-1]}`)
+    }
+    else {
+      lineList.concat(`${i}. ${line[i-1]}`);
+    }
+  }
 
 
 }
