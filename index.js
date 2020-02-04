@@ -1,4 +1,4 @@
-var deliLine = [];
+
 
 function takeANumber(line, name) {
   line.push(name);
