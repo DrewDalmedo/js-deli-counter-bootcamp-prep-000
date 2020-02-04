@@ -18,4 +18,3 @@ function currentLine(line) {
 
 
 }
-
