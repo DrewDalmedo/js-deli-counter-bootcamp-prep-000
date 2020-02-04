@@ -19,5 +19,3 @@ function currentLine(line) {
 
 }
 
-const deliLine = ["Steven", "Blake", "Avi"]
-console.log(nowServing(deliLine));
