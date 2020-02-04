@@ -20,4 +20,4 @@ function currentLine(line) {
 }
 
 const deliLine = ["Steven", "Blake", "Avi"]
-nowServing(deliLine);
+console.log(nowServing(deliLine));
