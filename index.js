@@ -24,7 +24,7 @@ function currentLine(line) {
       lineList += `${i}. ${line[i-1]}`
     }
     else {
-      lineList += `${i}. ${line[i-1]},`;
+      lineList += `${i}. ${line[i-1]}, `;
     }
   }
 
